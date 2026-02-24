@@ -533,6 +533,16 @@ export const plugins: PluginInfoBase[] = [
     tags: ['ai'],
   },
   {
+    repo: 'j-cyoung/PaperViewZoteroPlugin',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
     repo: 'jagaldol/zotero-cite-preview-resizer',
     releases: [
       {
@@ -829,12 +839,16 @@ export const plugins: PluginInfoBase[] = [
     repo: 'northword/zotero-format-metadata',
     releases: [
       {
+        targetZoteroVersion: '9',
+        tagName: 'latest',
+      },
+      {
         targetZoteroVersion: '8',
         tagName: 'latest',
       },
       {
         targetZoteroVersion: '7',
-        tagName: 'latest',
+        tagName: 'v2.3.0',
       },
       {
         targetZoteroVersion: '6',
@@ -846,6 +860,10 @@ export const plugins: PluginInfoBase[] = [
   {
     repo: 'nutstore/zotero-plugin-nutstore-sso',
     releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
       {
         targetZoteroVersion: '7',
         tagName: 'latest',
@@ -1128,6 +1146,20 @@ export const plugins: PluginInfoBase[] = [
     tags: ['integration'],
   },
   {
+    repo: 'sheny-bio/marginalia',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
+  },
+  {
     repo: 'steven-jianhao-li/zotero-AI-Butler',
     releases: [
       {
@@ -1150,6 +1182,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['visualization'],
+  },
+  {
+    repo: 'swcxito/zotero-ai-bar',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'productivity'],
   },
   {
     repo: 'syt2/paper-chat-for-zotero',
@@ -1458,6 +1504,20 @@ export const plugins: PluginInfoBase[] = [
       },
     ],
     tags: ['others'],
+  },
+  {
+    repo: 'yilewang/llm-for-zotero',
+    releases: [
+      {
+        targetZoteroVersion: '8',
+        tagName: 'latest',
+      },
+      {
+        targetZoteroVersion: '7',
+        tagName: 'latest',
+      },
+    ],
+    tags: ['ai', 'notes', 'productivity'],
   },
   {
     repo: 'yueneiqi/zotero2eagle',
